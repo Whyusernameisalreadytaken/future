@@ -12,6 +12,8 @@
         <module>stream</module>
         <module>base</module>
         <module>algorithm</module>
+        <module>annotation</module>
+        <module>blog</module>
     </modules>
 
     <packaging>pom</packaging>
