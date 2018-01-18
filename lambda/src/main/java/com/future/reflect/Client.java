@@ -1,6 +1,5 @@
 package com.future.reflect;
 
-import java.lang.reflect.Constructor;
 
 /**
  * client

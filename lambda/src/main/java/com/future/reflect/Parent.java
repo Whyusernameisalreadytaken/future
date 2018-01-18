@@ -1,5 +1,8 @@
 package com.future.reflect;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * parent
  *
@@ -10,6 +13,12 @@ public class Parent {
 
     private String country;
 
+    private static Map<String,String> map = new HashMap<>();
+
+    static {
+        map.put("1","1");
+    }
+
     public String getCountry() {
         return country;
     }
@@ -17,4 +26,10 @@ public class Parent {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    public String get(){
+        return map.get("1");
+    }
+
+
 }
