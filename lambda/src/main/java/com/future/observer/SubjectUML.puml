@@ -1,0 +1,19 @@
+@startuml
+interface Subject<R> {
+
+
+    void registerObserver(R observer);
+
+
+    void removeObserver(R observer);
+
+    void notifyObserver(Subject subject);
+}
+
+interface Observer<T> {
+
+
+    void update(Subject subject);
+}
+
+@enduml

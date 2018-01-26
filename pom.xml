@@ -14,6 +14,7 @@
         <module>algorithm</module>
         <module>annotation</module>
         <module>blog</module>
+        <module>reactor</module>
     </modules>
 
     <packaging>pom</packaging>

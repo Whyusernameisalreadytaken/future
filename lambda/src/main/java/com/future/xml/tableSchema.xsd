@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.wlm.com/future/beans"
+            version="1.0.0"
+            xml:lang="EN"
+            elementFormDefault="qualified"
+            >
+
+    <xsi:element name="table" >
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element name="width" type="xsi:double"></xsi:element>
+                <xsi:element name="height" type="xsi:double"></xsi:element>
+                <xsi:element name="length" type="xsi:double"></xsi:element>
+            </xsi:sequence>
+            <xsi:attribute name="color" type="xsi:string"></xsi:attribute>
+            <xsi:attribute name="owner" type="xsi:string"></xsi:attribute>
+        </xsi:complexType>
+    </xsi:element>
+
+
+</xsi:schema>
+
